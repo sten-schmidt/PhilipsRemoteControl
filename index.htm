@@ -1,0 +1,36 @@
+﻿<!DOCTYPE HTML>
+<HTML><HEAD>
+ 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">          
+<META name="viewport" content="width=device-width, initial-scale=1.0">     
+<TITLE>Remote Control</TITLE>     
+<LINK href="src/site.css" rel="stylesheet">     
+
+
+<SCRIPT src="src/jquery-3.3.1.min.js"></SCRIPT>
+<SCRIPT src="src/Config.js"></SCRIPT>
+<SCRIPT src="src/App.js"></SCRIPT>
+ 
+<BODY>
+    <div class="message"></div>
+    <div class="buttons">
+        <button class="button onButtonClick" id="key_standby">
+            <div class="button-text">Standby</div>
+            <div class="button-desc">switch-off</div>
+        </button>
+        <button class="button onButtonClick" id="volume_plus">
+            <div class="button-text">+</div>
+            <div class="button-desc">volume up</div>
+        </button>
+        <button class="button onButtonClick" id="volume_minus">
+            <div class="button-text">-</div>
+            <div class="button-desc">volume down</div>
+        </button>
+        <button class="button onButtonClick" id="key_info">
+            <div class="button-text">i</div> 
+            <div class="button-desc">Info</div>
+        </button>
+    </div>
+    <div class="channels"></div>
+
+</BODY></HTML>

@@ -1,0 +1,36 @@
+body {
+	padding-top: 50px; 
+	padding-bottom: 20px;
+}
+.body-content {
+	padding-right: 15px; padding-left: 15px;
+}
+.dl-horizontal dt {
+	white-space: normal;
+}
+input {
+	max-width: 280px;
+}
+select {
+	max-width: 280px;
+}
+textarea {
+	max-width: 280px;
+}
+.button {
+	margin: 4px 4px 4px 4px;
+	background-color: lightskyblue;
+	height: 70px;
+
+}
+.button-text {
+	top: 2px;
+	vertical-align: top;
+	font-size: 1.5em;
+	text-align: left;
+}
+.button-desc {
+	font-size: 1em;
+	font-style: italic;
+	text-align: left;
+}
